@@ -3,7 +3,10 @@ import lPin from "../../assets/Contact/lPin.svg";
 
 
 const Contact = () => {
+
+  
   return (
+  
     <div
       className="w-auto  m-[2rem] flex flex-col justify-center items-center p-4"
       id="Contact"
