@@ -5,7 +5,7 @@ import { ghPages } from 'vite-plugin-gh-pages'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/ITE/',
+  base:'/infinity-techno-engineering/',
   plugins: [
     react(),
     tailwindcss(),

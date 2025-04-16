@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://md0516.github.io/ITE/",
+  "homepage": "https://md0516.github.io/infinity-techno-engineering/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
