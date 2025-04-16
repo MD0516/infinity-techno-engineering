@@ -34,7 +34,7 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="grid grid-flow-row grid-cols-3 gap-4  w-[80%]">
+      <div className="grid grid-flow-row grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3 w-[80%]">
 
     
         <div className="text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>

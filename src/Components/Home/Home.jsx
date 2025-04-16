@@ -10,12 +10,12 @@ const Home = () => {
     <div id="Home" className='mt-20'>
         <div className=' w-full '>
             <div  style={{ backgroundColor: "var(--primary)" }}>
-                <div className='flex flex-row justify-evenly items-center'>
+                <div className='flex flex-col justify-evenly items-center md:flex-row'>
                     <div>
-                        <h1  className='text-white text-[3rem] font-bold mt-5 mr-5 ml-5 mb-1 pt-5 pr-5 pb-1 pl-5'>Reliable Industrial Engineering <br /> Solutions – All Under One Roof</h1>
+                        <h1  className='text-white text-4xl md:text-4.5xl md:leading-14 lg:text-5xl lg:leading-16 font-bold mt-5 mr-5 ml-5 mb-1 pt-5 pr-5 pb-1 pl-5'>Reliable Industrial Engineering <br /> Solutions – All Under One Roof</h1>
                         <p className='text-white text-[1.3rem] m-5 mt-1 mr-5 ml-5 mb-5 pt-1 pr-5 pb-5 pl-5'>Empowering industries with expert support in automation, <br /> electrical, hydraulic, and mechanical systems.</p>
                     </div>
-                    <div className='flex flex-col justify-center items-center'>
+                    <div className='flex flex-row mb-5 md:flex-col justify-center items-center'>
                         <a href='#Services' className='bg-white p-5 m-5 rounded-[8px] font-bold text-[var(--secondary)] hover:text-white hover:bg-[var(--secondary)] hover:cursor-pointer'  > Explore Services </a> 
                         <a href='#Contact' className='bg-white p-5 m-5 rounded-[8px] font-bold text-[var(--secondary)] hover:text-white hover:bg-[var(--secondary)] hover:cursor-pointer'> Get in Touch </a>
                     </div>
