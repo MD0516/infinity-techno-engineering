@@ -38,8 +38,8 @@ const Navbar = () => {
     <div className={`transition-all duration-300 ${visible ? 'top-0' : '-top-20'} fixed w-full z-[999] border-b-20 border-[var(--primary)] rounded-xl`}id='NB'>
         <nav className='w-full p-4 flex justify-between items-center h-16  text-white ' style={{ backgroundColor: 'var(--primary)' }}>
           <div className='flex items-center space-x-2'>
-            <a href='#'><img src={ite_h} alt="logo" className='w-16 h-16 cursor-pointer' /> </a>
-            <a href="#" className='font-black'>
+            <a href='https://md0516.github.io/infinity-techno-engineering/'><img src={ite_h} alt="logo" className='w-16 h-16 cursor-pointer' /> </a>
+            <a href="https://md0516.github.io/infinity-techno-engineering/" className='font-black'>
                 <h1 className='text-[1.5rem] inline'>Infinity Techno Engineering</h1>
             </a>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import lPin from "../../assets/Contact/lPin.svg";
 
+
 const Contact = () => {
   return (
     <div
@@ -49,7 +50,7 @@ const Contact = () => {
           >
             Contact Form
           </h3>
-          <form action="https://getform.io/f/adrnwqqa" method="POST">
+          <form action="https://script.google.com/macros/s/AKfycbzA758qjpj7kEx3IV-lcaBgCWn4dyU3rwejRTdxs3Zf60qMULioL43O8YBzdFzFVJOq/exec" method="POST">
             <div className="space-y-4 mt-4">
               <div>
                 <label htmlFor="name" className="block font-semibold">
@@ -70,10 +71,10 @@ const Contact = () => {
                   Phone No.
                 </label>
                 <input
-                  type="number"
+                  type="text"
                   id="Phone"
                   placeholder="Enter your Phone No."
-                  name="Phone"
+                  name="phone"
                   className="outline-solid rounded-[3px] w-[60%] p-3"
                   style={{ outline: "2px solid var(--accent)" }}
                   required
@@ -109,7 +110,6 @@ const Contact = () => {
               <div className="w-[60%] text-center mt-4">
                 <button
                   type="submit"
-                  name="submit"
                   className="w-[50%] p-3 outline-solid rounded-[3px] hover:bg-[var(--accent)] hover:text-white"
                   style={{ outline: "2px solid var(--accent)" }}
                 >
