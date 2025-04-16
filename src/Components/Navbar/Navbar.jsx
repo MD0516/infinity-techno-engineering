@@ -106,6 +106,8 @@ const Navbar = () => {
       <div
         className={`flex justify-center items-center bg-[var(--primary)] text-[1.3rem] ${
           animate ? "animate-pulse" : ""
+        } ${
+          visible ? "" : "hidden"
         } transition-all duration-300`}
       >
         <ul
@@ -113,7 +115,7 @@ const Navbar = () => {
             isClicked === true
               ? "flex flex-col space-y-5 text-white "
               : "hidden"
-          } sm:hidden `}
+          }  sm:hidden `}
         >
           <li>
             <a href="#Home" onClick={handleNavLinkClick}>
