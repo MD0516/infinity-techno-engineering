@@ -9,17 +9,17 @@ import mechanical from "../../assets/Services/mechanical.jpg";
 const Services = () => {
   return (
     <div
-      className="w-auto flex flex-col justify-center items-center m-[2em] p-4 mt-20"
+      className=" flex flex-col justify-center items-center m-4 pb-15 sm:m-[2rem] sm:p-4 mt:10 sm:mt-20"
       id="Services"
       style={{ backgroundColor: "var(--neutralDark)" }}
     >
       <h1
-        className="font-bold text-[2rem] mt-10 mb-10"
+        className="font-bold text-[2rem] mt-5 sm:mt-10 sm:mb-10"
         style={{ color: "var(--accent)" }}
       >
         Our Services
       </h1>
-      <div className="text-[1.2rem] w-[80%] text-justify leading-10 ">
+      <div className="m-4 p-3 sm:m-[2rem] text-justify leading-9 sm:leading-10 ">
         <p>
           At <b>Infinity Techno Engineering </b>, we offer a comprehensive range of
           industrial services designed to meet the evolving needs of our
@@ -34,13 +34,13 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="grid grid-flow-row grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3 w-[80%]">
+      <div className=" flex flex-col justify-center lg:grid lg:grid-flow-row lg:gap-4 lg:grid-cols-3 w-[80%] h-fit">
 
     
-        <div className="text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
+        <div className="w-fit text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
           <h4 className="font-bold text-[1.2rem] mb-2" style={{ color: "var(--accent)" }}> Electrical & Electronics services</h4>
           <div className="w-full flex justify-center items-center">
-            <img src={electrical} alt="demo" className="w-[350px] h-[230px]"  />
+            <img src={electrical} alt="demo" className="w-65 h-50 sm:w-[350px] sm:h-[230px]"  />
           </div>
           <ul className="list-disc ml-10 mt-2">
             <li> Sales and servicing of electrical and electronic spare parts </li>
@@ -49,10 +49,10 @@ const Services = () => {
           </ul>
         </div>
         
-        <div className="text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
+        <div className="w-fit text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
           <h4 className="font-bold text-[1.2rem] mb-2" style={{ color: "var(--accent)" }}> Automation Solutions </h4>
           <div className="w-full flex justify-center items-center">
-            <img src={automation} alt="demo" className="w-[350px] h-[230px]"  />
+            <img src={automation} alt="demo" className="w-65 h-50 sm:w-[350px] sm:h-[230px]"  />
           </div>
           <ul className="list-disc ml-10 mt-2">
             <li> Design and implementation of PLC and LabVIEW projects </li>
@@ -61,10 +61,10 @@ const Services = () => {
           </ul>
         </div>
 
-        <div className="text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
+        <div className="w-fit text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
           <h4 className="font-bold text-[1.2rem] mb-2" style={{ color: "var(--accent)" }}> Hydraulic & Pneumatic Services </h4>
           <div className="w-full flex justify-center items-center">
-            <img src={hydrualic} alt="demo" className="w-[350px] h-[230px]"  />
+            <img src={hydrualic} alt="demo" className="w-65 h-50 sm:w-[350px] sm:h-[230px]"  />
           </div>
           <ul className="list-disc ml-10 mt-2">
             <li> Repair and maintenance of hydraulic and pneumatic actuators </li>
@@ -73,10 +73,10 @@ const Services = () => {
           </ul>
         </div>
 
-        <div className="text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
+        <div className="w-fit text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
           <h4 className="font-bold text-[1.2rem] mb-2" style={{ color: "var(--accent)" }}> Mechanical Equipment Maintenance </h4>
           <div className="w-full flex justify-center items-center">
-            <img src={mechanical} alt="demo" className="w-[350px] h-[230px]"  />
+            <img src={mechanical} alt="demo" className="w-65 h-50 sm:w-[350px] sm:h-[230px]"  />
           </div>
           <ul className="list-disc ml-10 mt-2">
             <li> Servicing of motors, pumps, drives, and gearboxes </li>
@@ -85,10 +85,10 @@ const Services = () => {
           </ul>
         </div>
 
-        <div className="text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
+        <div className="w-fit text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
           <h4 className="font-bold text-[1.2rem] mb-2" style={{ color: "var(--accent)" }}> Accumulator Gas Charging </h4>
           <div className="w-full flex justify-center items-center">
-            <img src={accumulator} alt="demo" className="w-[350px] h-[230px]"  />
+            <img src={accumulator} alt="demo" className="w-65 h-50 sm:w-[350px] sm:h-[230px]"  />
           </div>
           <ul className="list-disc ml-10 mt-2">
             <li> Gas charging for hydraulic accumulators </li>
@@ -97,10 +97,10 @@ const Services = () => {
           </ul>
         </div>
 
-        <div className="text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
+        <div className="w-fit text-[1rem] mt-4 text-justify leading-10 border-2 p-3 rounded-[14px] hover:shadow-xl/30 hover:scale-105 transition-all duration-250 " style={{ borderColor: "var(--accent)" }}>
           <h4 className="font-bold text-[1.2rem] mb-2" style={{ color: "var(--accent)" }}> Custom Fabrication & Technical Support </h4>
           <div className="w-full flex justify-center items-center">
-            <img src={fabrication} alt="demo" className="w-[350px] h-[230px]"  />
+            <img src={fabrication} alt="demo" className="w-65 h-50 sm:w-[350px] sm:h-[230px]"  />
           </div>
           <ul className="list-disc ml-10 mt-2">
             <li> Fabrication of custom electrical and mechanical structures </li>

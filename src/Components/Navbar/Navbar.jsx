@@ -52,7 +52,7 @@ const Navbar = () => {
       } fixed w-full z-[999] flex justify-center`}
       id="NB"
     >
-      <div className="w-full max-w-screen-xl">
+      <div className="w-full">
         <nav
           className="w-full h-fit px-4 py-2 flex justify-between items-center text-white"
           style={{ backgroundColor: "var(--primary)" }}
@@ -62,14 +62,14 @@ const Navbar = () => {
               <img
                 src={ite_h}
                 alt="logo"
-                className="w-16 h-16 cursor-pointer"
+                className="w-10 h-10 sm:w-16 md:16 cursor-pointer"
               />
             </a>
             <a
               href="https://md0516.github.io/infinity-techno-engineering/"
               className="font-black"
             >
-              <h1 className="text-xl inline">Infinity Techno Engineering</h1>
+              <h1 className="text-[1.2rem] md:text-2xl inline">Infinity Techno Engineering</h1>
             </a>
           </div>
           <div>
@@ -78,7 +78,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsClicked((prev) => !prev);
               }}
-              className="w-8 h-8 sm:hidden cursor-pointer"
+              className="w-6 h-6 sm:hidden cursor-pointer"
               alt="menu"
             />
             <ul className="hidden sm:flex sm:flex-row sm:space-x-4 sm:space-y-0">
