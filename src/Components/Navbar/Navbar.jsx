@@ -49,7 +49,7 @@ const Navbar = () => {
     <div
       className={`transition-all duration-300 ${
         visible ? "top-0" : "-top-24"
-      } fixed w-full z-[999] flex justify-center`}
+      } fixed w-full z-49 flex justify-center`}
       id="NB"
     >
       <div className="w-full">
