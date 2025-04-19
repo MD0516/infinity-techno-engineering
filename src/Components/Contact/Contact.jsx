@@ -21,7 +21,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbzA758qjpj7kEx3IV-lcaBgCWn4dyU3rwejRTdxs3Zf60qMULioL43O8YBzdFzFVJOq/exec"; // Replace with your actual script ID
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzA758qjpj7kEx3IV-lcaBgCWn4dyU3rwejRTdxs3Zf60qMULioL43O8YBzdFzFVJOq/exec";
 
     const form = new FormData();
     form.append("name", formData.name);
@@ -61,7 +61,6 @@ const Contact = () => {
       </h1>
 
       <div className="flex flex-col sm:flex-row justify-evenly w-full mt-4">
-        {/* Contact Info */}
         <div className="sm:text-[1.2rem] sm:text-justify leading-10 m-auto">
           <h3
             className="font-bold text-[1.3rem] text-center p-3 leading-10"
@@ -87,7 +86,6 @@ const Contact = () => {
           </ul>
         </div>
 
-        {/* Contact Form */}
         <div
           className="lg:pr-40 p-3 space-y-5 text-center flex flex-col justify-center sm:border-l-2 sm:w-1/2"
           style={{ borderColor: "var(--accent)" }}
@@ -99,7 +97,6 @@ const Contact = () => {
             Contact Form
           </h3>
           <form className="space-y-5" onSubmit={handleSubmit}>
-            {/* Name */}
             <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
               <label
                 htmlFor="name"
@@ -120,7 +117,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Phone */}
             <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
               <label
                 htmlFor="phone"
@@ -141,7 +137,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Email */}
             <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
               <label
                 htmlFor="email"
@@ -162,7 +157,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Message */}
             <div className="flex flex-col sm:flex-row sm:items-start sm:space-x-4">
               <label
                 htmlFor="message"
@@ -182,7 +176,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Submit Button */}
             <div className="flex justify-center sm:text-left mt-4">
               <button
                 type="submit"
@@ -196,17 +189,15 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* LOCATION BOX */}
       <div className="h-50 bg-white p-20 mt-4">
         <p className="m-auto pl-20">LOCATION</p>
       </div>
 
-      {/* POPUP MESSAGE */}
       {showPopup && (
         <div className="fixed inset-0 bg-gray-500/75 transition-opacity flex items-center justify-center z-50">
         <div
           className="p-6 rounded-xl shadow-xl text-center backdrop-blur-md"
-          style={{ backgroundColor: "rgba(255, 255, 255, 0.9)" }}  // Solid background for popup
+          style={{ backgroundColor: "rgba(255, 255, 255, 0.9)" }} 
         >
             <h2 className="text-xl font-bold mb-2 text-green-600">Thank You!</h2>
             <p>Your message has been sent successfully.</p>
