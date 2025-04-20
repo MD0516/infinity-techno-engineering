@@ -189,7 +189,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="sm:w-200 w-63 h-full aspect-[4/5] sm:aspect-[5/3] flex justify-center items-center mt-10 mb-10">
+      <div className="sm:w-200 w-68 h-full aspect-[4/6] sm:aspect-[5/3] flex justify-center items-center mt-10 mb-10">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.370271733657!2d80.020071!3d12.883895999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f70026af6a73%3A0x89b17d115001a5a1!2sInfinity%20Techno%20Engineering!5e0!3m2!1sen!2sin!4v1745128253969!5m2!1sen!2sin"  style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="w-full h-full"></iframe>
       </div>
 
